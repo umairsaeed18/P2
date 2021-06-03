@@ -16,14 +16,14 @@
             <a href="#hero" id="home"><i class="fa fa-home"></i>Home</a>
             <a href="#aboutsection" id="about"><i class="fas fa-address-card"></i>About</a>
             <a href="#portsection" id="folio"><i class="fas fa-briefcase"></i>Portfolio</a>
-            <a href="#contact" id="contact"><i class="fas fa-at"></i>Contact</a>
+            <a href="libraries.php" id="contact"><i class="fas fa-file-code"></i>Adv. dev</a>
         </nav>
     </aside>
     <nav class="mobile-nav">
         <a href="#hero">Home</a>
         <a href="#aboutsection">About</a>
         <a href="#portsection">Portfolio</a>
-        <a href="#contact">Contact</a>
+        <a href="#contact">Adv. dev</a>
     </nav>
     <section id="hero">
         <div class="containerHero">
@@ -142,6 +142,8 @@
     <script src="js/main.js"></script>    
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+
     <script>
         AOS.init();
     </script>

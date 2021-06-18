@@ -36,7 +36,7 @@
                         <div style="width:400px;" class="container-2">
                             <h1 class="typing"><span id="staticText">I am <span id="typewritereffect"></span></span>
                             </h1>
-                            <a class="github" href="https://github.com/umairsaeed18/P2.git"><i class="fab fa-github"></i></a>
+                            <a class="github" target="_blank" href="https://github.com/umairsaeed18/P2.git"><i class="fab fa-github"></i></a>
                         </div>
                     </h3>
                 </div>

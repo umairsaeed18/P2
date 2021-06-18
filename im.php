@@ -2,124 +2,77 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Leeruitkomst - Interactive Media</title>
+    <title>Interactive Media</title>
     <meta name="robots" content="noindex">
-    <link rel="stylesheet" href="styles/project.scss">
-	<!-- <link rel="stylesheet" href="styles/style.scss"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/project.scss">
+    <link rel="icon" href="img/metalogo.png">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
 
 <body>
-    <a href="index.php"><button class="feedbackBTN"><i class="fa fa-home" aria-hidden="true"></i>Terug naar home</button></a> 
-<h2 class="title-projects">Interactive Media</h2>
+    <aside>
+        <nav id="mySidenav" class="sidenav">
+            <a href="index.php" id="home"><i class="fa fa-home"></i>Home</a>
+            <a href="index.php#aboutsection" id="about"><i class="fas fa-address-card"></i>About</a>
+            <a href="index.php#portsection" id="folio"><i class="fas fa-briefcase"></i>Portfolio</a>
+            <a href="libraries.php" id="contact"><i class="fas fa-file-code"></i>Adv. dev</a>
+        </nav>
+    </aside>
+    <nav class="mobile-nav">
+        <a href="index.php">Home</a>
+        <a href="index.php#aboutsection">About</a>
+        <a href="index.php#portsection">Portfolio</a>
+        <a href="libraries.php">Adv. dev</a>
+    </nav>
+    <h2 class="title-projects">Interactive Media</h2>
     <div class="blog-card">
         <div class="meta">
-            <div class="photo"
-                style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)">
+            <div class="photo" style="background-image: url(img/port.png)">
             </div>
-            <ul class="details">
-                <li class="author"><a href="#">John Doe</a></li>
-                <li class="date">Aug. 24, 2015</li>
-                <li class="tags">
-                    <ul>
-                        <li><a href="#">Learn</a></li>
-                        <li><a href="#">Code</a></li>
-                        <li><a href="#">HTML</a></li>
-                        <li><a href="#">CSS</a></li>
-                    </ul>
-                </li>
-            </ul>
         </div>
         <div class="description">
-            <h1>Learning to Code</h1>
-            <h2>Opening a door to the future</h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta
-                praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+            <h1>Portfolio</h1>
+            <h2>HTML - CSS - SCSS - JavaScript</h2>
+            <p>Voor ICT en media design is het belangrijk om te kunnen laten zien wat je allemaal gedaan hebt in een
+                semester en daar is dit portfolio voor. Het doel van het portfolio is om aan te tonen dat alle
+                leerdoelen zijn behaald en dit op een interactieve manier te laten zien, ook design speelde een rol
+                tijdens het maken van het portfolio.</p>
             <p class="read-more">
-                <a href="#">Read More</a>
+                <a href="im/portfolio.php">Read More</a>
             </p>
         </div>
     </div>
     <div class="blog-card alt">
         <div class="meta">
-            <div class="photo"
-                style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)">
+            <div class="photo" style="background-image: url(img/glowlight1-project.png)">
             </div>
-            <ul class="details">
-                <li class="author"><a href="#">Jane Doe</a></li>
-                <li class="date">July. 15, 2015</li>
-                <li class="tags">
-                    <ul>
-                        <li><a href="#">Learn</a></li>
-                        <li><a href="#">Code</a></li>
-                        <li><a href="#">JavaScript</a></li>
-                    </ul>
-                </li>
-            </ul>
         </div>
         <div class="description">
-            <h1>Mastering the Language</h1>
-            <h2>Java is not the same as JavaScript</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta
-                praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+            <h1>Glow Light Week</h1>
+            <h2>Adobe Photoshop - Adobe Priemere Pro</h2>
+            <p>Tijdens de glow light week moesten we in een duo werken aan een project dat iets met glow te maken had.
+                Toen kwam ik samen met Ivan op het idee om een (design) glow piano te maken. Piano die zorgt voor
+                verlichting en speciale effecten wanneer deze wordt bespeeld.</p>
             <p class="read-more">
-                <a href="#">Read More</a>
+                <a href="im/glowlight.php">Read More</a>
             </p>
         </div>
     </div>
-	<div class="blog-card">
+    <div class="blog-card">
         <div class="meta">
-            <div class="photo"
-                style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)">
+            <div class="photo" style="background-image: url(img/sprintxpic1.png)">
             </div>
-            <ul class="details">
-                <li class="author"><a href="#">John Doe</a></li>
-                <li class="date">Aug. 24, 2015</li>
-                <li class="tags">
-                    <ul>
-                        <li><a href="#">Learn</a></li>
-                        <li><a href="#">Code</a></li>
-                        <li><a href="#">HTML</a></li>
-                        <li><a href="#">CSS</a></li>
-                    </ul>
-                </li>
-            </ul>
         </div>
         <div class="description">
-            <h1>Learning to Code</h1>
-            <h2>Opening a door to the future</h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta
-                praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+            <h1>Sprint X: The Crypto Chart</h1>
+            <h2>HTML - CSS - JavaScript - API</h2>
+            <p> Voor sprint X was het de bedoeling om in 3 weken een project te maken. Het duurde niet lang voordat ik
+                met een project op de proppen kwam. Ik wilde echt iets doen met de API's. Omdat ik zelf ook wat
+                cryptomunten heb, kwam ik op het idee om een cryptografiek te maken. Een tabel met informatie over
+                verschillende cryptocurrencies die afkomstig is van API</p>
             <p class="read-more">
-                <a href="#">Read More</a>
-            </p>
-        </div>
-    </div>
-    <div class="blog-card alt">
-        <div class="meta">
-            <div class="photo"
-                style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)">
-            </div>
-            <ul class="details">
-                <li class="author"><a href="#">Jane Doe</a></li>
-                <li class="date">July. 15, 2015</li>
-                <li class="tags">
-                    <ul>
-                        <li><a href="#">Learn</a></li>
-                        <li><a href="#">Code</a></li>
-                        <li><a href="#">JavaScript</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <div class="description">
-            <h1>Mastering the Language</h1>
-            <h2>Java is not the same as JavaScript</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta
-                praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
-            <p class="read-more">
-                <a href="#">Read More</a>
+                <a href="im/cryptochart.php">Read More</a>
             </p>
         </div>
     </div>
